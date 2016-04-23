@@ -3,6 +3,7 @@ Materials for "Getting started with Open Source" at [DevPulseCon](http://devpuls
 
 This repository contains information to help you get started with contributing to an open source project on GitHub.
 As part of this session, you will contribute a small change to this project to familiarise yourself with a typical workflow for contributing to projects on GitHub.
+You'll be adding your name and GitHub user name to [this page](http://codechix-opensource.github.io/open-source-intro/).
 
 ## Prerequisites
 * GitHub account
