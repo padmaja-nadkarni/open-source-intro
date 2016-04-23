@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Getting started with Open Source
+        </title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <script src="attendees.json"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Getting started with Open Source</h1>
+                <p class="text-center">
+                    <a href="http://github.com/zubron/open-source-intro">
+                        <i class="fa fa-github fa-3x">
+                        </i>
+                    </a>
+                </p>
+            </div>
+            <div class="container">
+                <h2>Attendees</h2>
+                <script type="text/javascript">
+                    for (index in attendees)
+                    {
+                        var name = attendees[index].name;
+                        var username = attendees[index].username;
+                        document.write("<img src=http://github.com/" + username + ".png width=150 height=150 />");
+                        document.write("<h4>" + attendees[index].name + "</h4>");
+                        document.write("<a href=http://github.com/" + username + ">" + username + "</a> ");
+                        document.write("<br />")
+                        document.write("<br />")
+                    }
+                </script>
+            </div>
+        </div>
+	</body>
+</html>
